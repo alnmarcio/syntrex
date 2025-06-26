@@ -6,7 +6,7 @@ package com.mycompany.syntrex;
 
 /**
  *
- * @author a.s.oliveira
+ * @author g.boone
  */
 public class Syntrex {
 
