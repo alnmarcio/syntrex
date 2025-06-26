@@ -196,7 +196,7 @@
         <Component class="javax.swing.JButton" name="salvar">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\h.hupp\Downloads\botao salvar (1).png"/>
+              <Image iconType="2" name="C:\Users\h.hupp\Documents\imagens Sintrex\botao salvar (1).png"/>
             </Property>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="null"/>
@@ -213,7 +213,7 @@
               <Color blue="73" green="37" red="22" type="rgb"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\h.hupp\Downloads\voltar.png"/>
+              <Image iconType="2" name="C:\Users\h.hupp\Documents\imagens Sintrex\voltar.png"/>
             </Property>
             <Property name="borderPainted" type="boolean" value="false"/>
           </Properties>

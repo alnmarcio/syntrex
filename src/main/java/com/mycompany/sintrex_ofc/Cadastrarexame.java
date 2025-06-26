@@ -67,7 +67,7 @@ public class Cadastrarexame extends javax.swing.JFrame {
             }
         });
 
-        salvar.setIcon(new javax.swing.ImageIcon("C:\\Users\\h.hupp\\Downloads\\botao salvar (1).png")); // NOI18N
+        salvar.setIcon(new javax.swing.ImageIcon("C:\\Users\\h.hupp\\Documents\\imagens Sintrex\\botao salvar (1).png")); // NOI18N
         salvar.setBorder(null);
         salvar.setBorderPainted(false);
         salvar.addActionListener(new java.awt.event.ActionListener() {
@@ -77,7 +77,7 @@ public class Cadastrarexame extends javax.swing.JFrame {
         });
 
         voltar.setBackground(new java.awt.Color(34, 55, 115));
-        voltar.setIcon(new javax.swing.ImageIcon("C:\\Users\\h.hupp\\Downloads\\voltar.png")); // NOI18N
+        voltar.setIcon(new javax.swing.ImageIcon("C:\\Users\\h.hupp\\Documents\\imagens Sintrex\\voltar.png")); // NOI18N
         voltar.setBorderPainted(false);
 
         menu.setBackground(new java.awt.Color(34, 55, 115));
