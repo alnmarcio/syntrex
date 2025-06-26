@@ -32,7 +32,7 @@ public class gestaoFuncionarios extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         syntrexSimbolo = new javax.swing.JLabel();
         iconeBoneco = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
+        voltar = new javax.swing.JButton();
         txtcadastroFuncionario = new javax.swing.JLabel();
         txtnomefuncionario = new javax.swing.JLabel();
         txtmatricula = new javax.swing.JLabel();
@@ -40,7 +40,7 @@ public class gestaoFuncionarios extends javax.swing.JFrame {
         campoColaborador = new javax.swing.JTextField();
         campoFuncao = new javax.swing.JTextField();
         campoMatricula = new javax.swing.JTextField();
-        jButton1 = new javax.swing.JButton();
+        salvar = new javax.swing.JButton();
 
         jTextField3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -59,9 +59,9 @@ public class gestaoFuncionarios extends javax.swing.JFrame {
         iconeBoneco.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/syntrex/imagens/boneco.png"))); // NOI18N
         iconeBoneco.setBorderPainted(false);
 
-        jButton2.setBackground(new java.awt.Color(34, 55, 115));
-        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/syntrex/imagens/voltar.png"))); // NOI18N
-        jButton2.setBorderPainted(false);
+        voltar.setBackground(new java.awt.Color(34, 55, 115));
+        voltar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/syntrex/imagens/voltar.png"))); // NOI18N
+        voltar.setBorderPainted(false);
 
         txtcadastroFuncionario.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/syntrex/imagens/txt cadastrar funcionario.png"))); // NOI18N
 
@@ -89,12 +89,12 @@ public class gestaoFuncionarios extends javax.swing.JFrame {
             }
         });
 
-        jButton1.setBackground(new java.awt.Color(34, 55, 115));
-        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/syntrex/imagens/botao salvar.png"))); // NOI18N
-        jButton1.setBorderPainted(false);
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        salvar.setBackground(new java.awt.Color(34, 55, 115));
+        salvar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/syntrex/imagens/botao salvar.png"))); // NOI18N
+        salvar.setBorderPainted(false);
+        salvar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                salvarActionPerformed(evt);
             }
         });
 
@@ -124,14 +124,14 @@ public class gestaoFuncionarios extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(57, 57, 57)
-                        .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(voltar, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(125, 125, 125)
                         .addComponent(txtcadastroFuncionario, javax.swing.GroupLayout.PREFERRED_SIZE, 421, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(755, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jButton1)
+                .addComponent(salvar)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
@@ -143,7 +143,7 @@ public class gestaoFuncionarios extends javax.swing.JFrame {
                         .addComponent(iconeBoneco, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(syntrexSimbolo, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 57, Short.MAX_VALUE)
-                .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(voltar, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 19, Short.MAX_VALUE)
                 .addComponent(txtcadastroFuncionario, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 37, Short.MAX_VALUE)
@@ -159,7 +159,7 @@ public class gestaoFuncionarios extends javax.swing.JFrame {
                     .addComponent(campoFuncao)
                     .addComponent(txtfuncao, javax.swing.GroupLayout.DEFAULT_SIZE, 42, Short.MAX_VALUE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 48, Short.MAX_VALUE)
-                .addComponent(jButton1)
+                .addComponent(salvar)
                 .addContainerGap(119, Short.MAX_VALUE))
         );
 
@@ -193,9 +193,9 @@ public class gestaoFuncionarios extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_campoMatriculaActionPerformed
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void salvarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_salvarActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }//GEN-LAST:event_salvarActionPerformed
 
     /**
      * @param args the command line arguments
@@ -227,14 +227,14 @@ public class gestaoFuncionarios extends javax.swing.JFrame {
     private javax.swing.JTextField campoFuncao;
     private javax.swing.JTextField campoMatricula;
     private javax.swing.JButton iconeBoneco;
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JTextField jTextField3;
+    private javax.swing.JButton salvar;
     private javax.swing.JLabel syntrexSimbolo;
     private javax.swing.JLabel txtcadastroFuncionario;
     private javax.swing.JLabel txtfuncao;
     private javax.swing.JLabel txtmatricula;
     private javax.swing.JLabel txtnomefuncionario;
+    private javax.swing.JButton voltar;
     // End of variables declaration//GEN-END:variables
 }
