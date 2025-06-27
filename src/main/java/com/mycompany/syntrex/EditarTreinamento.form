@@ -113,7 +113,7 @@
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="Logomarca" min="-2" pref="353" max="-2" attributes="0"/>
                               <EmptySpace max="32767" attributes="0"/>
-                              <Component id="ADM" min="-2" pref="56" max="-2" attributes="0"/>
+                              <Component id="adm" min="-2" pref="56" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
@@ -133,7 +133,7 @@
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" attributes="0">
                               <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
-                              <Component id="ADM" min="-2" pref="54" max="-2" attributes="0"/>
+                              <Component id="adm" min="-2" pref="54" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace max="-2" attributes="0"/>
@@ -322,7 +322,7 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JButton" name="ADM">
+            <Component class="javax.swing.JButton" name="adm">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="73" green="37" red="22" type="rgb"/>
