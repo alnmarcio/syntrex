@@ -2,13 +2,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
 
-package com.mycompany.sintrex_ofc;
+package com.mycompany.syntrex;
 
 /**
  *
- * @author h.hupp
+ * @author g.bone
  */
-public class Sintrex_ofc {
+ class Syntrex {
 
     public static void main(String[] args) {
         System.out.println("Hello World!");
