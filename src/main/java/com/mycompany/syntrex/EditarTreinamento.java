@@ -47,7 +47,7 @@ public class EditarTreinamento extends javax.swing.JFrame {
         jLabel7 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         Voltar = new javax.swing.JLabel();
-        ADM = new javax.swing.JButton();
+        adm = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -90,10 +90,10 @@ public class EditarTreinamento extends javax.swing.JFrame {
 
         Voltar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/syntrex_telas/Imagens syntrex/voltar (1).png"))); // NOI18N
 
-        ADM.setBackground(new java.awt.Color(34, 55, 115));
-        ADM.setForeground(new java.awt.Color(34, 55, 115));
-        ADM.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/syntrex_telas/Imagens syntrex/8ccb388f-0177-474e-af73-b36dc6556140 1.png"))); // NOI18N
-        ADM.setBorder(null);
+        adm.setBackground(new java.awt.Color(34, 55, 115));
+        adm.setForeground(new java.awt.Color(34, 55, 115));
+        adm.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/syntrex_telas/Imagens syntrex/8ccb388f-0177-474e-af73-b36dc6556140 1.png"))); // NOI18N
+        adm.setBorder(null);
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -143,7 +143,7 @@ public class EditarTreinamento extends javax.swing.JFrame {
                         .addContainerGap()
                         .addComponent(Logomarca, javax.swing.GroupLayout.PREFERRED_SIZE, 353, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(ADM, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(adm, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap())
             .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(jPanel2Layout.createSequentialGroup()
@@ -157,7 +157,7 @@ public class EditarTreinamento extends javax.swing.JFrame {
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGap(8, 8, 8)
-                        .addComponent(ADM, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(adm, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addContainerGap()
                         .addComponent(Logomarca, javax.swing.GroupLayout.PREFERRED_SIZE, 62, javax.swing.GroupLayout.PREFERRED_SIZE)))
@@ -257,7 +257,6 @@ public class EditarTreinamento extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(() -> new EditarTreinamento().setVisible(true));
    Salvar    // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton ADM;
     private javax.swing.JButton Ajuda;
     private javax.swing.JTextField Descrição;
     private javax.swing.JLabel Logomarca;
@@ -266,6 +265,7 @@ public class EditarTreinamento extends javax.swing.JFrame {
     private javax.swing.JButton Salvar;
     private javax.swing.JTextField Validade;
     private javax.swing.JLabel Voltar;
+    private javax.swing.JButton adm;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel2;
