@@ -137,7 +137,7 @@
         <Component class="javax.swing.JLabel" name="jLabel1">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\h.hupp\Documents\imagens Sintrex\syntrex simbolo.png"/>
+              <Image iconType="3" name="/com/mycompany/syntrex/imagens/syntrex simbolo_1.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="jLabel1"/>
           </Properties>
@@ -145,35 +145,35 @@
         <Component class="javax.swing.JLabel" name="jLabel2">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\h.hupp\Documents\imagens Sintrex\cadastrar exame.png"/>
+              <Image iconType="3" name="/com/mycompany/syntrex/imagens/cadastrar exame.png"/>
             </Property>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel3">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\h.hupp\Documents\imagens Sintrex\nome exame3.png"/>
+              <Image iconType="3" name="/com/mycompany/syntrex/imagens/nome exame1.png"/>
             </Property>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel4">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\h.hupp\Documents\imagens Sintrex\descri&#xe7;&#xe3;o.png"/>
+              <Image iconType="3" name="/com/mycompany/syntrex/imagens/descri&#xe7;&#xe3;o.png"/>
             </Property>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel5">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\h.hupp\Documents\imagens Sintrex\txt nome do colaborador.png"/>
+              <Image iconType="3" name="/com/mycompany/syntrex/imagens/Nome do colaborador.png"/>
             </Property>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel6">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\h.hupp\Documents\imagens Sintrex\validade.png"/>
+              <Image iconType="3" name="/com/mycompany/syntrex/imagens/validade.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="jLabel6"/>
           </Properties>
@@ -192,7 +192,7 @@
         <Component class="javax.swing.JButton" name="salvar">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\h.hupp\Documents\imagens Sintrex\botao salvar (1).png"/>
+              <Image iconType="3" name="/com/mycompany/syntrex/imagens/botao salvar.png"/>
             </Property>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="null"/>
@@ -209,7 +209,7 @@
               <Color blue="73" green="37" red="22" type="rgb"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\h.hupp\Documents\imagens Sintrex\voltar.png"/>
+              <Image iconType="3" name="/com/mycompany/syntrex/imagens/voltar (1).png"/>
             </Property>
             <Property name="borderPainted" type="boolean" value="false"/>
           </Properties>
@@ -220,7 +220,7 @@
               <Color blue="73" green="37" red="22" type="rgb"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\h.hupp\Documents\imagens Sintrex\boneco.png"/>
+              <Image iconType="3" name="/com/mycompany/syntrex/imagens/boneco.png"/>
             </Property>
             <Property name="borderPainted" type="boolean" value="false"/>
           </Properties>

@@ -47,18 +47,18 @@ public class Cadastrarexame extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(34, 55, 115));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\h.hupp\\Documents\\imagens Sintrex\\syntrex simbolo.png")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/syntrex/imagens/syntrex simbolo_1.png"))); // NOI18N
         jLabel1.setText("jLabel1");
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\h.hupp\\Documents\\imagens Sintrex\\cadastrar exame.png")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/syntrex/imagens/cadastrar exame.png"))); // NOI18N
 
-        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\h.hupp\\Documents\\imagens Sintrex\\nome exame3.png")); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/syntrex/imagens/nome exame1.png"))); // NOI18N
 
-        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\h.hupp\\Documents\\imagens Sintrex\\descrição.png")); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/syntrex/imagens/descrição.png"))); // NOI18N
 
-        jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Users\\h.hupp\\Documents\\imagens Sintrex\\txt nome do colaborador.png")); // NOI18N
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/syntrex/imagens/Nome do colaborador.png"))); // NOI18N
 
-        jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Users\\h.hupp\\Documents\\imagens Sintrex\\validade.png")); // NOI18N
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/syntrex/imagens/validade.png"))); // NOI18N
         jLabel6.setText("jLabel6");
 
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
@@ -67,7 +67,7 @@ public class Cadastrarexame extends javax.swing.JFrame {
             }
         });
 
-        salvar.setIcon(new javax.swing.ImageIcon("C:\\Users\\h.hupp\\Documents\\imagens Sintrex\\botao salvar (1).png")); // NOI18N
+        salvar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/syntrex/imagens/botao salvar.png"))); // NOI18N
         salvar.setBorder(null);
         salvar.setBorderPainted(false);
         salvar.addActionListener(new java.awt.event.ActionListener() {
@@ -77,11 +77,11 @@ public class Cadastrarexame extends javax.swing.JFrame {
         });
 
         voltar.setBackground(new java.awt.Color(34, 55, 115));
-        voltar.setIcon(new javax.swing.ImageIcon("C:\\Users\\h.hupp\\Documents\\imagens Sintrex\\voltar.png")); // NOI18N
+        voltar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/syntrex/imagens/voltar (1).png"))); // NOI18N
         voltar.setBorderPainted(false);
 
         menu.setBackground(new java.awt.Color(34, 55, 115));
-        menu.setIcon(new javax.swing.ImageIcon("C:\\Users\\h.hupp\\Documents\\imagens Sintrex\\boneco.png")); // NOI18N
+        menu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/syntrex/imagens/boneco.png"))); // NOI18N
         menu.setBorderPainted(false);
         menu.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
