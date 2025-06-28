@@ -9,6 +9,16 @@
     <artifactId>syntrex</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
+    
+<dependencies>
+    <!-- Dependência do MySQL Connector -->
+    <dependency>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-j</artifactId>
+        <version>8.3.0</version>
+    </dependency>
+</dependencies>
+    
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
