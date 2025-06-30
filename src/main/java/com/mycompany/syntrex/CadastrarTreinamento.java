@@ -88,11 +88,11 @@ public class CadastrarTreinamento extends javax.swing.JFrame {
 
         Voltar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/syntrex_telas/Imagens syntrex/voltar (1).png"))); // NOI18N
 
-        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/syntrex_telas/Imagens syntrex/nome do treinamento2.png"))); // NOI18N
+        jLabel8.setIcon(new javax.swing.ImageIcon("C:\\Users\\g.blazechi\\Documents\\NetBeansProjects\\Projetogustavo\\syntrex\\syntrex\\src\\main\\java\\com\\mycompany\\syntrex\\imagens\\nome do treinamento2.png")); // NOI18N
 
         ADM.setBackground(new java.awt.Color(34, 55, 115));
         ADM.setForeground(new java.awt.Color(34, 55, 115));
-        ADM.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/syntrex_telas/Imagens syntrex/8ccb388f-0177-474e-af73-b36dc6556140 1.png"))); // NOI18N
+        ADM.setIcon(new javax.swing.ImageIcon("C:\\Users\\g.blazechi\\Documents\\NetBeansProjects\\Projetogustavo\\syntrex\\syntrex\\src\\main\\java\\com\\mycompany\\syntrex\\imagens\\8ccb388f-0177-474e-af73-b36dc6556140 1.png")); // NOI18N
         ADM.setBorder(null);
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
