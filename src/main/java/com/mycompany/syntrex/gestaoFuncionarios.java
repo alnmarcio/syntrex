@@ -8,6 +8,9 @@ package com.mycompany.syntrex;
  *
  * @author g.boone
  */
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
 public class gestaoFuncionarios extends javax.swing.JFrame {
     
     private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(gestaoFuncionarios.class.getName());
@@ -15,9 +18,116 @@ public class gestaoFuncionarios extends javax.swing.JFrame {
     /**
      * Creates new form gestaoFuncionarios
      */
-    public gestaoFuncionarios() {
-        initComponents();
+    
+
+public class TelaCadastroFuncionario extends JFrame {
+
+    private JTextField campoColaborador;
+    private JTextField matriculaField;
+    private JTextField funcaoField;
+
+    public TelaCadastroFuncionario() {
+        setTitle("Cadastrar Funcionário");
+        setSize(800, 500);
+        setLocationRelativeTo(null);
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
+        setLayout(null);
+        getContentPane().setBackground(new Color(25, 47, 104)); // azul escuro
+
+        // Ícone de perfil (menu dropdown)
+        JButton perfilButton = new JButton("\uD83D\uDC64");
+        perfilButton.setBounds(740, 10, 40, 30);
+        perfilButton.setBackground(null);
+        perfilButton.setBorder(null);
+        perfilButton.setForeground(Color.WHITE);
+        perfilButton.setFont(new Font("SansSerif", Font.PLAIN, 22));
+
+        JPopupMenu perfilMenu = new JPopupMenu();
+        JMenuItem perfilItem = new JMenuItem("Perfil do Usuário");
+        JMenuItem sairItem = new JMenuItem("Sair");
+
+        perfilMenu.add(perfilItem);
+        perfilMenu.add(sairItem);
+
+        perfilButton.addActionListener(e -> perfilMenu.show(perfilButton, 0, perfilButton.getHeight()));
+
+        sairItem.addActionListener(e -> System.exit(0));
+        perfilItem.addActionListener(e -> JOptionPane.showMessageDialog(this, "Acessando perfil..."));
+
+        // Botão Voltar
+        JButton voltarButton = new JButton("← VOLTAR");
+        voltarButton.setBounds(20, 50, 120, 30);
+        voltarButton.setBackground(null);
+        voltarButton.setBorder(null);
+        voltarButton.setForeground(Color.WHITE);
+        voltarButton.setFont(new Font("SansSerif", Font.BOLD, 14));
+        voltarButton.addActionListener(e -> {
+            JOptionPane.showMessageDialog(this, "Voltando...");
+        });
+
+        // Título
+        JLabel titulo = new JLabel("Cadastrar Funcionário");
+        titulo.setBounds(250, 100, 400, 30);
+        titulo.setForeground(Color.WHITE);
+        titulo.setFont(new Font("SansSerif", Font.BOLD, 24));
+
+        // Labels e campos
+        JLabel nomeLabel = new JLabel("Nome do colaborador");
+        nomeLabel.setBounds(100, 160, 200, 25);
+        nomeLabel.setForeground(Color.WHITE);
+
+        nomeField = new JTextField();
+        nomeField.setBounds(300, 160, 400, 30);
+
+        JLabel matriculaLabel = new JLabel("Matricula");
+        matriculaLabel.setBounds(100, 210, 200, 25);
+        matriculaLabel.setForeground(Color.WHITE);
+
+        matriculaField = new JTextField();
+        matriculaField.setBounds(300, 210, 400, 30);
+
+        JLabel funcaoLabel = new JLabel("Função");
+        funcaoLabel.setBounds(100, 260, 200, 25);
+        funcaoLabel.setForeground(Color.WHITE);
+
+        funcaoField = new JTextField();
+        funcaoField.setBounds(300, 260, 400, 30);
+
+        // Botão salvar
+        JButton salvarButton = new JButton("SALVAR");
+        salvarButton.setBounds(350, 320, 100, 35);
+        salvarButton.setBackground(new Color(0, 153, 119));
+        salvarButton.setForeground(Color.WHITE);
+        salvarButton.setFocusPainted(false);
+        salvarButton.addActionListener(e -> salvarFuncionario());
+
+        // Adiciona tudo no frame
+        add(perfilButton);
+        add(voltarButton);
+        add(titulo);
+        add(nomeLabel);
+        add(nomeField);
+        add(matriculaLabel);
+        add(matriculaField);
+        add(funcaoLabel);
+        add(funcaoField);
+        add(salvarButton);
     }
+
+    private void salvarFuncionario() {
+        String nome = nomeField.getText();
+        String matricula = matriculaField.getText();
+        String funcao = funcaoField.getText();
+
+        // Aqui você pode inserir no banco de dados
+        JOptionPane.showMessageDialog(this, "Salvo:\nNome: " + nome + "\nMatricula: " + matricula + "\nFunção: " + funcao);
+    }
+
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(() -> new TelaCadastroFuncionario().setVisible(true));
+    }
+}
+
 
     /**
      * This method is called from within the constructor to initialize the form.
