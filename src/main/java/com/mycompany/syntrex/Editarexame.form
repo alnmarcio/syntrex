@@ -61,7 +61,7 @@
                                       <Component id="jLabel5" alignment="0" min="-2" pref="356" max="-2" attributes="0"/>
                                       <Component id="jLabel4" alignment="0" min="-2" pref="356" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace pref="233" max="32767" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Component id="jTextField2" alignment="1" min="-2" pref="625" max="-2" attributes="0"/>
                                       <Component id="jTextField1" alignment="1" min="-2" pref="625" max="-2" attributes="0"/>
@@ -72,21 +72,20 @@
                                   <Component id="jLabel2" min="-2" pref="404" max="-2" attributes="0"/>
                                   <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                               </Group>
-                              <Group type="102" alignment="0" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
                                   <Component id="jLabel6" min="-2" pref="244" max="-2" attributes="0"/>
                                   <EmptySpace max="32767" attributes="0"/>
-                                  <Component id="jTextField3" min="-2" pref="625" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="salvar" min="-2" pref="145" max="-2" attributes="0"/>
+                                      <Component id="jTextField3" min="-2" pref="625" max="-2" attributes="0"/>
+                                  </Group>
                               </Group>
                           </Group>
                       </Group>
                   </Group>
-                  <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
                   <Component id="menu" min="-2" pref="108" max="-2" attributes="0"/>
-              </Group>
-              <Group type="102" alignment="1" attributes="0">
-                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                  <Component id="salvar" min="-2" pref="145" max="-2" attributes="0"/>
-                  <EmptySpace max="32767" attributes="0"/>
+                  <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -102,7 +101,10 @@
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
-                                  <Component id="jLabel1" min="-2" pref="78" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel1" min="-2" pref="78" max="-2" attributes="0"/>
+                                      <Component id="menu" min="-2" pref="78" max="-2" attributes="0"/>
+                                  </Group>
                                   <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
                                   <Component id="jLabel2" min="-2" pref="153" max="-2" attributes="0"/>
                               </Group>
@@ -115,9 +117,7 @@
                           <Component id="jLabel4" min="-2" pref="67" max="-2" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="menu" min="-2" pref="78" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="235" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="319" max="-2" attributes="0"/>
                           <Component id="jTextField4" min="-2" pref="43" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
                           <Component id="jTextField1" min="-2" pref="43" max="-2" attributes="0"/>
@@ -130,9 +130,9 @@
                       <Component id="jLabel6" alignment="3" min="-2" pref="59" max="-2" attributes="0"/>
                       <Component id="jTextField3" alignment="3" min="-2" pref="43" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace max="32767" attributes="0"/>
+                  <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
                   <Component id="salvar" min="-2" pref="34" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="104" max="-2" attributes="0"/>
+                  <EmptySpace pref="63" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
