@@ -8,6 +8,7 @@ package com.mycompany.syntrex;
  *
  * @author g.boone
  */
+import javax.swing.*;
 public class Menu extends javax.swing.JFrame {
     
     private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(Menu.class.getName());
@@ -15,9 +16,17 @@ public class Menu extends javax.swing.JFrame {
     /**
      * Creates new form Menu
      */
+
     public Menu() {
-        initComponents();
+        setTitle("Menu Principal");
+        setSize(400, 300);
+        setLocationRelativeTo(null);
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
+        JLabel label = new JLabel("Bem-vindo ao Menu", SwingConstants.CENTER);
+        add(label);
     }
+
+
 
     /**
      * This method is called from within the constructor to initialize the form.
