@@ -8,16 +8,68 @@ package com.mycompany.syntrex;
  *
  * @author a.s.oliveira
  */
-public class Login extends javax.swing.JFrame {
-    
-    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(Login.class.getName());
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
 
-    /**
-     * Creates new form Login
-     */
+public class Login extends JFrame {
+
+    private JTextField email;
+    private JPasswordField senha;
+
     public Login() {
-        initComponents();
+        setTitle("Login");
+        setSize(500, 300);
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
+        setLocationRelativeTo(null);
+        getContentPane().setBackground(new Color(23, 45, 99));
+
+        JPanel painel = new JPanel();
+        painel.setBackground(Color.WHITE);
+        painel.setBorder(BorderFactory.createEmptyBorder(20, 50, 20, 50));
+        painel.setLayout(new BoxLayout(painel, BoxLayout.Y_AXIS));
+
+        JLabel titulo = new JLabel("Acesse sua conta");
+        titulo.setFont(new Font("Arial", Font.BOLD, 24));
+        titulo.setAlignmentX(Component.CENTER_ALIGNMENT);
+        titulo.setForeground(new Color(23, 45, 99));
+
+        email = new JTextField();
+        senha = new JPasswordField();
+        JButton botaoEntrar = new JButton("Entrar");
+
+        painel.add(titulo);
+        painel.add(Box.createRigidArea(new Dimension(0, 20)));
+        painel.add(new JLabel("E-mail:"));
+        painel.add(email);
+        painel.add(Box.createRigidArea(new Dimension(0, 10)));
+        painel.add(new JLabel("Senha:"));
+        painel.add(email);
+        painel.add(Box.createRigidArea(new Dimension(0, 20)));
+        painel.add(botaoEntrar);
+
+        add(painel);
+
+        botaoEntrar.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                    new Menu().setVisible(true);
+                    dispose(); // fecha tela de login
+              
+            }
+        });
     }
+
+    private boolean autenticar(String email, String senha) {
+        return email.equals("admin") && senha.equals("1234"); // exemplo fixo
+    }
+
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(() -> new Login().setVisible(true));
+    }
+}
+
+
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -221,27 +273,7 @@ public class Login extends javax.swing.JFrame {
     /**
      * @param args the command line arguments
      */
-    public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
-        try {
-            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
-                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
-                    break;
-                }
-            }
-        } catch (ReflectiveOperationException | javax.swing.UnsupportedLookAndFeelException ex) {
-            logger.log(java.util.logging.Level.SEVERE, null, ex);
-        }
-        //</editor-fold>
-
-        /* Create and display the form */
-        java.awt.EventQueue.invokeLater(() -> new Login().setVisible(true));
-    }
+    
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JCheckBox checkbox;
@@ -259,4 +291,4 @@ public class Login extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel2;
     private javax.swing.JTextField senha;
     // End of variables declaration//GEN-END:variables
-}
+
